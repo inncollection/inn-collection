@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdfcf9;
+  color: #111;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+  background-color: #fff;
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.hero {
+  padding: 100px 20px;
+}
+.logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+button {
+  background-color: #6dbb9c;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.section {
+  padding: 80px 20px;
+}
+.produits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.produit {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 250px;
+}
+.produit img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.formulaire-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.formulaire-contact input,
+.formulaire-contact textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.formulaire-contact button {
+  background-color: #6dbb9c;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
